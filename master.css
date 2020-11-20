@@ -1,3 +1,20 @@
 body {
    background-color: whitesmoke;
 }
+
+nav {
+   background-color: cornflowerblue;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   padding: 5px;
+}
+
+nav a {
+   margin: 8px;
+}
+
+nav img {
+   margin: 5px;
+}
