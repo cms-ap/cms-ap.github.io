@@ -5,17 +5,20 @@ body {
 }
 
 nav {
-   background-color: cornflowerblue;
+   background-color: #000;
    position: fixed;
    height: 100%;
 }
 
 nav a {
    margin: 18px 18px 18px 8px;
+   text-decoration: none;
+   color: #fff;
 }
 
 nav img {
    margin: 5px 5px -5px 5px;
+   filter: invert(100%);
 }
 
 .grid-item {
