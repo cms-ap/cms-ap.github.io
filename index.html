@@ -2,21 +2,39 @@
 <html lang="en" dir="ltr">
    <head>
       <link rel="stylesheet" href="master.css">
+      <script src="main.js" charset="utf-8"></script>
       <meta charset="utf-8">
       <title>Welcome to the CMS AP Website!</title>
    </head>
    <body>
       <!-- Navbar on left side, only icons, on click open show words -->
       <div class="grid-item">
-         <nav>
-            <a href="#"><img src="Icons/home.png" alt="">Home</a><br>
-            <a href="#"><img src="Icons/store.png" alt="">Store</a><br>
-            <p>Made by Squirrel</p>
+         <nav id="display">
+            <a href="#"><img src="Icons/home.png" alt="">Home</a><br><br>
+            <a href="#"><img src="Icons/store.png" alt="">Store</a><br><br>
+            <a href="#"><img src="Icons/cart.png" alt="">Cart</a><br><br>
+            <a href="#"><img src="Icons/explore2.png" alt="">Explore</a><br><br>
+            <a href="#"><img src="Icons/help.png" alt="">About</a><br><br>
+            <p><img src="Icons/copyright.png" alt=""> Made by Squirrel</p>
+         </nav>
+         <nav id="before-display" onclick="navDisplay">
+            <a href="#"><img src="Icons/home.png" alt=""></a><br><br>
+            <a href="#"><img src="Icons/store.png" alt=""></a><br><br>
+            <a href="#"><img src="Icons/cart.png" alt=""></a><br><br>
+            <a href="#"><img src="Icons/explore2.png" alt=""></a><br><br>
+            <a href="#"><img src="Icons/help.png" alt=""></a><br><br>
+            <p><img src="Icons/copyright.png" alt=""></p>
          </nav>
       </div>
       <div class="grid-item" id="main-cotainer">
          <h1>Welcome!</h1>
          <h3>To the Chesapeake Montissori School Adolecsent Program Website</h3>
+         <div class="explore">
+            <h4>Explore thingy!</h4>
+         </div>
+         <div class="images">
+            <h4>Look at thingy!</h4>
+         </div>
          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       </div>
    </body>
