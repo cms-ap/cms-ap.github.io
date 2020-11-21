@@ -27,7 +27,6 @@ nav {
    height: 105%;
    width: 50%;
    margin: -5px 15px -5px -5px;
-   zoom: 100%;
    font-size: 5vh;
 }
 
@@ -68,20 +67,32 @@ nav img {
 
 @media (max-width: 740px) {
    body {
-      grid-template-rows: 18% 85%;
+      all: revert;
+      display: grid;
+      background-color: whitesmoke;
+      grid-template-rows: auto auto;
    }
    nav {
-      position: fixed;
-      width: 105%;
-      height: 12%;
-      text-align: center;
+      all: revert;
+      background-color: #000;
+      position: relative;
+      width: 110%;
+      height: 12vh;
    }
    nav a {
-      margin: auto;
-      position: static;
-      z-index: 1;
+      all: revert;
+      display: inline;
    }
-   h1 {
-      margin-top: 60px;
+
+   nav p {
+      all: revert;
+   }
+
+   nav p img {
+      all: revert;
+   }
+
+   nav img {
+      all: revert;
    }
 }
